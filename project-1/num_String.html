@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number String</title>
+</head>
+<body>
+    
+    <h3 id="n"></h3>
+
+    <script>
+        let n = parseInt(prompt("Enter Number between 1 to 5 : "));
+
+        document.getElementById("n").innerHTML = ("The number you have entered is : ") + (n);
+
+        switch(n)
+        {
+            case 0 :
+                document.write(" 0 : Zero..");
+                break;
+
+            case 1 :
+                document.write("1 : One..");
+                break;
+            
+            case 2 :
+                document.write("2 : Two..");
+                break;
+
+            case 3 :
+                document.write("3 : Three..");
+                break;
+
+            case 4 :
+                document.write("4 : Four..");
+                break;
+            
+            case 5 :
+                document.write("5 : Five..");
+                break;
+
+            default :
+            document.write("INVALID, Please enter number between 1 TO 5..!!!!");
+        }
+    </script>
+
+</body>
+</html>
