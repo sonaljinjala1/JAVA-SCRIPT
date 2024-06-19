@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richarj On Mobile</title>
+</head>
+
+<body>
+    <script>
+
+        var Telecom;
+        document.write("press 1 for English <br>"); 
+        document.write("press 2 for Hindi <br>");
+        document.write("press 3 for Gujarati <br>");
+        let choice = (parseInt(prompt("Enter Your Choice : ")));
+
+        switch (choice) {
+            case 1:
+                document.write("you have choice English......<br>");
+                
+                var Telecom  = (parseInt(prompt("Enter your choice a Recharge number..")));
+                switch (Telecom ) {
+                    case 1:
+                        document.write("you have successfully done Internet Recharge...");
+                        break;
+
+                    case 2:
+                        document.write("you have successfully done Top-UP Recharge..");
+                        break;
+
+                    case 3:
+                        document.write("you have successfully done Special Recharge...");
+                        break;
+
+                    default:
+                        document.write("you Recharge Pack is not Availble...");
+                }
+                break;
+
+            case 2:
+                document.write("you have choice Hindi......<br>");
+               
+                var Telecom  = (parseInt(prompt("Enter your choice a Recharge number..")));
+
+                switch (Telecom ) {
+
+                    case 1:
+                        document.write("Apne safaltapurvak Internet Recharge kar liya he..");
+                        break;
+
+                    case 2:
+                        document.write("Apne safaltapurvak Top-Up Recharge kar liya he..");
+                        break;
+
+                    case 3:
+                        document.write("Apne safaltapurvak Special Recharge kar liya he..");
+                        break;
+
+                    default:
+                        document.write("Recharge peckj nahi hai..");
+                }
+                break;
+
+
+            case 3:
+                document.write("You have choice Gujrati.... <br>");
+               
+                var Telecom  = (parseInt(prompt("Enter your choice a Recharge number..")));
+
+                switch (Telecom) {
+
+                    case 1:
+                        document.write("Tame safaltapurvak Internet Recharge karyu chhe..");
+                        break;
+
+                    case 2:
+                        document.write("Tame safaltapurvak Top-UP Recharge karyu chhe..");
+                        break;
+
+                    case 3:
+                        document.write("Tame safaltapurvak Special Recharge karyu chhe..");
+                        break;
+
+                    default:
+                        document.write("Tame Recharge karyu nathi...");
+                }
+                break;
+        }
+
+    </script>
+</body>
+
+</html>

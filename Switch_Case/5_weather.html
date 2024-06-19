@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather Degree</title>
+</head>
+
+<body>
+    <script>
+        let choice = parseInt(prompt("Enter Your Degree:"));
+
+        switch (true) {
+            case (choice >= 42 && choice <= 45):
+                document.write("Summer");
+                break;
+
+            case (choice >= 30 && choice > 10):
+                document.write("Winter");
+                break;
+
+
+            case (choice >= 24 && choice > 18):
+                document.write("Monsun");
+                break;
+
+
+            default:
+                document.write("Invalid choice.\n");
+        }
+
+    </script>
+
+</body>
+
+</html>

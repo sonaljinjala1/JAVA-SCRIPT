@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade</title>
+</head>
+<body>
+
+    <script>
+
+       let marks = parseInt(prompt("Enter Your Grad: "));
+
+       switch(true){
+             case (marks >= 90 && marks <= 100) :
+                 break;
+                 document.write("<h5> Grade is A </h5>");
+
+            case (marks < 89 && marks > 80) :
+                document.write("<h5> Grade is B </h5>");
+                break;
+
+
+            case (marks < 79 && marks > 70) :
+                document.write("<h5> Grade is C </h5>");
+                break;
+
+
+                case (marks < 69 && marks > 60 ):
+                document.write("<h5> Grade is D </h5>");
+                break;
+
+                case (marks < 59 && marks > 34) :
+                document.write("<h5> Grade is E </h5>");
+                break;
+
+                default:
+                        document.write("Please Enter Valid Grade");
+                        break;
+
+       }
+
+
+
+
+    </script>
+</body>
+</html>

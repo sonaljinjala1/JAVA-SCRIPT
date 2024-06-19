@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+</head>
+
+<body>
+    <script>
+        let num = parseInt(prompt("enter your categories:"));
+
+        switch (true) {
+            case (num >=1 && num <= 3):
+                document.write("low");
+                break;
+
+            case (num >=4  && num <=7):
+                document.write("medium");
+                break;
+            case (num >=8  && num <=10):
+                document.write("high");
+                break;
+            
+            default:
+                document.write("enter valid number");
+        }
+
+    </script>
+
+</body>
+
+</html>
