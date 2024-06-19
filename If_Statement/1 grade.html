@@ -1,0 +1,50 @@
+<!-- Q-1.  Write a JavaScript function named gradeChecker that takes a numerical grade
+as input and returns the corresponding letter grade according to the following
+grading scale:
+● A: 90-100
+● B: 80-89
+● C: 70-79
+● D: 60-69
+● F: 0-59
+Your function should handle invalid inputs (grades below 0 or above 100) by returning
+"Invalid Grade". -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade - (If Statement)</title>
+</head>
+
+<body>
+    <script>
+        let marks = parseInt(prompt("enter your marks:"));
+
+        if (marks >= 90 && marks <= 100) {
+            document.write("<h4>your grader is A</h4>");
+        }
+        else if (marks < 89 && marks > 80) {
+            document.write("<h4>your grader is B</h4>");
+        }
+        else if (marks < 79 && marks > 70) {
+            document.write("<h4>your grader is C</h4>");
+        }
+        else if (marks < 69 && marks > 60) {
+            document.write("<h4>your grader is D</h4>");
+        }
+        else if (marks < 59 && marks > 34) {
+            document.write("<h4>your grader is E</h4>");
+        }
+        else if (marks < 34 && marks > 0){
+            document.write("<h4>you are fail</h4>");
+        }
+        else if (marks <= 0 && marks >= -100){
+            document.write("<h4>Invalid Grade</h4>");
+        }
+    </script>
+</body>
+
+</html>
