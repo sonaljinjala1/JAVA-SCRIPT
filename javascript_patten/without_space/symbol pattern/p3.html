@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS || Pattern(3)</title>
+</head>
+<body>
+
+      <!--  * 
+            * * 
+            * * * 
+            * * * * 
+            * * * * *  
+            * * * *  
+            * * *  
+            * *  
+            *  
+     -->
+
+    <script>
+
+        let i,j;
+        let n = parseInt(prompt("Enter number of row: "));
+
+        for(i = 1; i<n; i++)
+        {
+            let star = "* ";
+            
+            console.log(star.repeat(i)); 
+            
+        }
+        for(i = n; i>=1; i--)
+        {
+            let star = "* ";
+            
+            console.log(star.repeat(i)); 
+            
+        }
+
+    </script>
+
+</body>
+</html>
